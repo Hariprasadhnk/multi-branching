@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {   
-        stage('jenkins3 branch') { 
+        stage('Testmulti branch') { 
             steps { 
                sh 'echo "This is master branch"' 
             }
